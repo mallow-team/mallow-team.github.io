@@ -27,12 +27,18 @@ body
 h2
 {
 	margin:0;
-	padding:0 0 20px;
+	padding:0 0 30px;
 	color:#1E90FF;
 	text-align:center;
 } 
 
-
+h6
+{
+	margin:0;
+	padding:0 0 20px;
+	color:#1E90FF;
+	text-align:center;
+} 
 
 .loginBox p
 {
