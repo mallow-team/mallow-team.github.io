@@ -1,6 +1,6 @@
 # global settings
-title: "Mallow team"
-description: "Our slogan"
+title: "GitHub and Government"
+description: "GitHub helps government build software better, together"
 permalink: "/stories/:title"
 url: https://government.github.com
 relative_permalinks: false
