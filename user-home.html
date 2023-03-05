@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyHome | Log In</title>
+    <title>MyHome</title>
     <!-- LInk To CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- Box Icons -->
@@ -17,39 +17,42 @@
     <header>
         <div class="nav container">
             <!-- Logo -->
-            <a href="index.html" class="logo"><i class='bx bx-home'></i>R State</a>
-
+            <a href="index.html" class="logo"><i class='bx bx-home'></i>My Home</a>
+            <!-- Menu Icon -->
+            <input type="checkbox" name="" id="menu">
+            <label for="menu" <i class='bx bx-menu' id="menu-icon"></i></label>
+            <!-- Nav List -->
+            <ul class="navbar">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="index.html#sales">Sales</a></li>
+                <li><a href="index.html#properties">Properties</a></li>
+            </ul>
             <!-- Log In Button -->
-            <a href="sign-up.html" class="btn">Sign Up</a>
+            <a href="login.html" class="btn">Log In</a>
         </div>
 
     </header>
-    <!-- Log In -->
-    <div class="login container">
-        <div class="login-container">
-            <h2>Login To Continue</h2>
-            <p>Log in with your data that you entered <br>during your registration</p>
-            <!-- Login Form -->
-            <form action="">
-                <span>Enter your email address</span>
-                <input type="email" name="" id="" placeholder="yourmail@gmail.com" required>
-                <span>Enter your password</span>
-                <input type="password" name="" id="" placeholder="Password" required>
-                <a href="user-home.html"><input type="submit" value="Log In" class="buttom"></a>
-                <a href="#">Forget Password?</a>
-            </form>
-            <a href="sign-up.html" class="btn">Sign up now</a>
+    <!-- About -->
+    <section class="home container" id="about">
+        <div class="about-img">
+            <img src="img/about.jpg" alt="">
         </div>
-        <!-- Log In Image -->
-        <div class="login-image">
-            <img src="img/login.png" alt="">
+        <div class="about-text">
+            <span>Ricerca delle case</span>
+            <h2>We Provide The Best <br>Property For You !</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto debitis ducimus neque assumenda facere
+                magni!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto debitis ducimus neque assumenda facere
+                magni!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, soluta.</p>
+            <a href="#" class="btn">Learn More</a>
         </div>
-    </div>
-
+    </section>
     <!-- Footer -->
     <section class="footer">
         <div class="footer-container container">
-            <h2>R. State</h2>
+            <h2>MyHome</h2>
             <div class="footer-box">
                 <h3>Quick Links</h3>
                 <a href="#">Agency</a>
@@ -64,8 +67,8 @@
             </div>
             <div class="footer-box">
                 <h3>Contact</h3>
-                <a href="#">+44 (0)800 123 4567</a>
-                <a href="#">yourmail@gmail.com</a>
+                <a href="#">#phone</a>
+                <a href="#">team.valam@gmail.com</a>
                 <div class="social">
                     <a href="#"><i class='bx bxl-facebook'></i></a>
                     <a href="#"><i class='bx bxl-twitter'></i></a>
