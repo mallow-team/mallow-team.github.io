@@ -1,5 +1,11 @@
-# House Rent Template
-> House Renting template with login and signup page
+# MyHome - Smart House Renting
+> Project description
+
+### Pages:
+- Home
+- Login/Sign-up
+- About us
+- User Home
 
 ### Built with:
 - Html
