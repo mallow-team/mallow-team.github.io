@@ -366,6 +366,12 @@ header {
   border-radius: 0;
   text-align: center;
 }
+
+/* About-us */
+.about-us-container {
+  margin-top: 1rem;
+}
+
 /* Making Responsive */
 @media (max-width: 1080px) {
   .container {
