@@ -162,6 +162,11 @@ header {
   font-size: 1.1rem;
   margin: 1rem 0 0.4rem;
 }
+
+.sales .box .a h3 {
+  font-size: 1.1rem;
+  margin: 1rem 0 0.4rem;
+}
 .sales .box p {
   font-size: 00.938rem;
 }
