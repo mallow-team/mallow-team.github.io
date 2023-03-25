@@ -372,6 +372,12 @@ header {
   margin-top: 1rem;
 }
 
+/* Reservation - page */
+.reservation-container {
+  margin-top: 1rem;
+}
+
+
 /* Making Responsive */
 @media (max-width: 1080px) {
   .container {
