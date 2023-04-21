@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyHome | About Us</title>
+    <title>MyHome | Log In</title>
     <!-- LInk To CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../style.css">
     <!-- Box Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
@@ -17,33 +17,34 @@
     <header>
         <div class="nav container">
             <!-- Logo -->
-            <a href="index.html" class="logo"><i class='bx bx-home'></i>My Home</a>
-            <!-- Menu Icon -->
-            <input type="checkbox" name="" id="menu">
-            <label for="menu" <i class='bx bx-menu' id="menu-icon"></i></label>
-            <!-- Nav List -->
-            <ul class="navbar">
-                <li><a href="index.html#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-            </ul>
+            <a href="../../index.html" class="logo"><i class='bx bx-home'></i>My Home</a>
             <!-- Log In Button -->
-            <a href="login.html" class="btn">Log In</a>
+            <a href="../login/sign-up.html" class="btn">Sign Up</a>
         </div>
 
     </header>
-    <!-- About -->
-    <section class="about-us-container container" id="about">
-        <div class="about-text">
-            <span>About Us</span>
-            <h2>We Provide The Best <br>Property For You !</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto debitis ducimus neque assumenda facere
-                magni!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto debitis ducimus neque assumenda facere
-                magni!</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, soluta.</p>
-            <a href="#" class="btn">Learn More</a>
+    <!-- Log In -->
+    <div class="login container">
+        <div class="login-container">
+            <h2>Login To Continue</h2>
+            <p>Log in with your data that you entered <br>during your registration</p>
+            <!-- Login Form -->
+            <form action="">
+                <span>Enter your email address</span>
+                <input type="email" name="" id="" placeholder="yourmail@gmail.com" required>
+                <span>Enter your password</span>
+                <input type="password" name="" id="" placeholder="Password" required>
+                <a href="../../index.html"><input type="submit" value="Log In" class="buttom"></a>
+                <a href="#">Forget Password?</a>
+            </form>
+            <a href="../login/sign-up.html" class="btn">Sign up now</a>
         </div>
-    </section>
+        <!-- Log In Image -->
+        <div class="login-image">
+            <img src="img/login.png" alt="">
+        </div>
+    </div>
+
     <!-- Footer -->
     <section class="footer">
         <div class="footer-container container">
@@ -62,8 +63,8 @@
             </div>
             <div class="footer-box">
                 <h3>Contact</h3>
-                <a href="#">#phone</a>
-                <a href="#">team.valam@gmail.com</a>
+                <a href="#">+44 (0)800 123 4567</a>
+                <a href="#">yourmail@gmail.com</a>
                 <div class="social">
                     <a href="#"><i class='bx bxl-facebook'></i></a>
                     <a href="#"><i class='bx bxl-twitter'></i></a>
