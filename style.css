@@ -23,6 +23,9 @@
 img {
   width: 100%;
 }
+a { 
+  color: inherit; 
+}
 body {
   color: var(--text-color);
   overflow-x: hidden;
