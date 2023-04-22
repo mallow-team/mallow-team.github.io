@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyHome</title>
     <!-- LInk To CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../style.css">
     <!-- Box Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
@@ -17,73 +17,60 @@
     <header>
         <div class="nav container">
             <!-- Logo -->
-            <a href="index.html" class="logo"><i class='bx bx-home'></i>My Home</a>
+            <a href="../../index.html" class="logo"><i class='bx bx-home'></i>My Home</a>
             <!-- Menu Icon -->
             <input type="checkbox" name="" id="menu">
             <label for="menu" <i class='bx bx-menu' id="menu-icon"></i></label>
             <!-- Nav List -->
             <ul class="navbar">
-                <li><a href="#home">Home</a></li>
-                <li><a href="page/about-us/about-us.html">About Us</a></li>
-                <li><a href="page/work-with-us/work-with-us-step-1.html">Work with us</a></li>
+                <li><a href="../../index.html#home">Home</a></li>
+                <li><a href="../about-us/about-us.html">About Us</a></li>
             </ul>
             <!-- Log In Button -->
-            <a href="page/login/login.html" class="btn">Log In</a>
+            <a href="../login/login.html" class="btn">Log In</a>
         </div>
 
     </header>
     <!-- Home -->
-    <section class="home container" id="home">
-        <div class="home-text">
-            <h1>Find Your Next <br>Perfect Place To <br>Live.</h1>
-            <a href="/page/login/sign-up.html" class="btn">Sign Up</a>
+    <section class="reservation-question-box container">
+        <div class="reservation-text">
+            <h1>Sei un agente immobiliare?</h1>
         </div>
     </section>
     <!-- Sales -->
     <section class="sales container" id="sales">
         <!-- Box 1 -->
-        <a href="page/reservation/reservation-step-1.html">
+        <a href="work-with-us-agent.html">
             <div class="box">
                 <i class='bx bx-home-alt'></i>
-                <h3>Ricerca una casa</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, aut.</p>
+                <h3>Si</h3>
+                <p>Spiegazione <br>(2 righe massimo)</p>
             </div>
         </a>
         <!-- Box 2 -->
-        <div class="box">
-            <a href="page/owner/owner.html">
+        <a href="work-with-us-rider.html">
+            <div class="box">
                 <i class='bx bx-add-to-queue'></i>
-                <h3>Inserisci un annuncio</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, aut.</p>
-            </a>
-        </div>
-        <!-- Box 3 -->
-        <!--<div class="box">
-            <a href="owner-home.html">
-                <i class='bx bx-briefcase'></i>
-                <h3>Lavora con noi</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, aut.</p>
-            </a>
-        </div>-->
-    </section>
-    <!-- Newsletter -->
-    <section class="newsletter container">
-        <h2>Have Question in mind? <br>Let us help you</h2>
-        <form action="">
-            <input type="email" name="" id="email-box" placeholder="yourmail@gmail.com" required>
-            <input type="submit" value="Send" class="btn">
-        </form>
+                <h3>No</h3>
+                <p>Spiegazione <br>(2 righe massimo)</p>
+            </div>
+        </a>
     </section>
     <!-- Footer -->
     <section class="footer">
         <div class="footer-container container">
             <h2>MyHome</h2>
-            
             <div class="footer-box">
                 <h3>Quick Links</h3>
-                <a href="#">Rent a house</a>
-                <a href="#">Post an </a>
-                <a href="#">Work with us</a>
+                <a href="#">Agency</a>
+                <a href="#">Building</a>
+                <a href="#">Rates</a>
+            </div>
+            <div class="footer-box">
+                <h3>Locations</h3>
+                <a href="#">Milan</a>
+                <a href="#">London</a>
+                <a href="#">New York</a>
             </div>
             <div class="footer-box">
                 <h3>Contact</h3>
@@ -94,9 +81,6 @@
                     <a href="#"><i class='bx bxl-twitter'></i></a>
                     <a href="#"><i class='bx bxl-instagram'></i></a>
                 </div>
-            </div>
-            
-            <div class="footer-box">
             </div>
         </div>
     </section>

@@ -38,6 +38,10 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
+
+.box-empty {
+  width: 280px;
+}
 header {
   display: block;
   width: 100%;
